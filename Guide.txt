@@ -1,0 +1,4 @@
+Step1: npm init -y
+step2: npm install mocha
+step3: npm install chai
+step4: npm install sinon

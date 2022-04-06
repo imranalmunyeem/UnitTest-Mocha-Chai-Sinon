@@ -1,0 +1,20 @@
+{
+  "name": "Calculator-Cypress-UnitTest",
+  "version": "1.0.0",
+  "description": "Unit Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './specs/**/*.spec.js'",
+    "coverage": "nyc --reporter=lcov --reporter=text npm run test"
+  },
+  "keywords": [],
+  "author": "IMRAN AL MUNYEEM",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "sinon": "^13.0.1"
+  }
+}
